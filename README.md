@@ -2,7 +2,7 @@
 
 A jQuery plugin to cut the effort of create cascade comboboxes.
 
-mastercombo simplify the creation of linking ``<select>`` tags, by creating two html attributes: ``mastercombo`` in ``<select>`` tag and ``master`` in ``<option>`` tag.
+mastercombo simplify the creation of linking ``<select>`` tags, by creating ``mastercombo`` atribute in ``<select>`` tag and ``master`` attribute in ``<option>`` tag.
 
 ```html
 <select id="country" name="country">
