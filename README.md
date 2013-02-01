@@ -1,6 +1,6 @@
 # mastercombo
 
-A jQuery plugin to cut the effort of create cascade comboboxes.
+A jQuery plugin to cut the effort of create cascade comboboxes.  [Check out the live demo](http://jsbin.com/ikumer/6)
 
 mastercombo simplify the creation of linking ``<select>`` tags, by creating ``mastercombo`` atribute in ``<select>`` tag and ``master`` attribute in ``<option>`` tag.
 
@@ -22,4 +22,14 @@ mastercombo simplify the creation of linking ``<select>`` tags, by creating ``ma
 
 ## How to use
 
-Não sabes português? És mesmo BURRO! É só fazer o include e chamar o plugin depois de $(document).ready( function () { blah, blah, blah }); 
+1. include jQuery (dah!)
+2. include ``mastercombo.js``
+3. At last but not least, run the plugin after the DOM gets loaded:
+
+```
+    $().ChildCombo();
+```
+
+## License
+
+[MIT License](http://opensource.org/licenses/MIT)
